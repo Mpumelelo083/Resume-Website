@@ -13,7 +13,7 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
+    height: 100px;
     padding-left: 40px;
     padding-right: 20px;
 }
@@ -38,7 +38,7 @@ button {
     display: flex;
     flex-direction: row;
     position: absolute;
-    top:280px;
+    top:240px;
     left:125px ;
     z-index: 1;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
@@ -49,6 +49,10 @@ button {
     display: flex;
     flex-direction: column;
 
+}
+
+.roles {
+    font-size: 18px;
 }
 
 .introduction-card .introduction-left p {
@@ -78,13 +82,13 @@ button {
 .social-media-pages {
     display: flex;
     flex-direction: row;
-    height: 50px;
+
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     align-items: center;
     justify-content:space-around;
     background-color: white;
-    padding: 10px;
+    padding: 25px;
 }
 
 .introduction-card .social-media-pages img {
@@ -93,10 +97,45 @@ button {
 }
 
 .introduction-right {
-
+    padding: 45px 25px 45px 25px;
 }
 
+.introduction-right p {
+    margin-top: 25px;
+}
 
+.hello {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.welcome-message {
+    font-size: 20px;
+}
+
+.middle {
+    margin-top: 25px;
+}
+
+.bottom {
+    width: 400px;
+}
+
+.resume-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.about-button {
+    background-color: white;
+    border: solid 1px black;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+}
 
 .sidebar {
     position: fixed;
@@ -107,3 +146,4 @@ button {
     background-color: rgb(228, 207, 211);
 
 }
+
