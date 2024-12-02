@@ -1,0 +1,109 @@
+body {
+    position: relative;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.role {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+button {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.introduction-card {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:280px;
+    left:125px ;
+    z-index: 1;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    
+}
+
+.introduction-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.introduction-card .introduction-left p {
+    margin-top: 30px;
+}
+
+.Picture-name-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 45px 40px 45px;
+    background-color: rgb(228, 207, 211);   
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+}
+
+.line-solid {
+    width: 100px;
+    height: 50px;
+}
+
+.social-media-pages {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    align-items: center;
+    justify-content:space-around;
+    background-color: white;
+    padding: 10px;
+}
+
+.introduction-card .social-media-pages img {
+    width: 30px;
+    height: 30px;
+}
+
+.introduction-right {
+
+}
+
+
+
+.sidebar {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 120px;
+    width: 350px;
+    background-color: rgb(228, 207, 211);
+
+}
