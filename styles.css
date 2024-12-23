@@ -2,7 +2,7 @@ body {
     position: relative;
     margin: 0;
     font-family: Arial, sans-serif;
-    padding-top: 100px; /* To account for the fixed header */
+    padding-top: 100px;
     box-sizing: border-box;
 } 
 
@@ -231,7 +231,7 @@ button {
     }
 
     .middle {
-        flex-direction: column; /* Stacks buttons vertically */
+        flex-direction: column; 
         gap: 15px;
     }
 
@@ -252,7 +252,7 @@ button {
     }
 
     .sidebar {
-        display: none; /* Hide sidebar on very small screens */
+        display: none; 
     }
 
     .introduction-card {
