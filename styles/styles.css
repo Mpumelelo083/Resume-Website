@@ -13,6 +13,10 @@ p {
     margin-bottom: 0px;
 }
 
+.header-card .header-left a:link, a:visited {
+    color: black;
+}
+
 .header-card {
     display: flex;
     flex-direction: row;

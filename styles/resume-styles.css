@@ -10,6 +10,14 @@ p {
     margin-bottom: 0px;
 }
 
+.header-card .header-left a:link, a:visited {
+    color: black;
+}
+
+.header-card .header-right a:link, a:visited, a:hover {
+    color: black;
+}
+
 li {
     font-family: Arial;
     font-size: 17px;
